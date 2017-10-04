@@ -6,3 +6,6 @@ eureka:
     registerWithEureka: false
     serviceUrl:
       defaultZone: http://localhost:8085/eureka/
+
+zuul:
+  ignoredServices: proxy
